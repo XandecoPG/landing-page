@@ -8,7 +8,12 @@
 }
 
 body {
-    background-color: #553edb46;
+    
+
+}
+
+section {
+    padding: 28px 8%;
 }
 
 .btn-default {
@@ -16,7 +21,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ffcb45;
+    background: #a78bfa;
+    color: #eaddff;
     border-radius: 12px;
     padding: 10px 14px;
     font-weight: 600;
@@ -24,6 +30,56 @@ body {
     cursor: pointer;
     transition: background-color .3s ease;
 }
+
 .btn-default:hover {
-    background-color: antiquewhite;
+    background-color: #5b21b6;
+}
+
+.social-media-buttons {
+    display: flex;
+    gap: 18px;
+}
+
+.social-media-buttons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow .3s ease;
+}
+
+.social-media-buttons a:hover {
+    box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+#banner {
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+}
+
+#banner img {
+    height: 100%;
+    width: fit-content;
+}
+
+.shape {
+    background-color: #a78bfa;
+    width: 25%;
+    height: 40%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
